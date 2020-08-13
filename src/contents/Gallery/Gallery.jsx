@@ -27,7 +27,7 @@ class Gallery extends React.Component{
         
           render() {
             return (
-              <div className="main-wrapper">
+              <div className="gallery">    
                 <h1>Gallery</h1>
                 {this.state.item.map((value) => (
                     <div className="card">

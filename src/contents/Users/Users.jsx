@@ -29,8 +29,8 @@ class Users extends React.Component{
         
           render() {
             return (
-    
-                  <div className="employee-content">
+                 <div className="users">       
+                 <div className="employee-content">
                 <h1>Employee Details</h1>
                 <table className="employees">
                     <tr>
@@ -52,6 +52,7 @@ class Users extends React.Component{
                   
                 ))
                 } 
+              </div>
               </div>
           
             );

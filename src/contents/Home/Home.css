@@ -1,0 +1,22 @@
+
+.typingeffect
+{
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
+}
+
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* .condiv
+{
+padding: 100px ;
+background-color: #f4f5f9;
+flex:var(--condiv-flex);
+} */

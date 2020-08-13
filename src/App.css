@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --fontsize-nav:1.6rem;
+  --typing-font:3rem;
+}
 
-.container{
-  margin-left: 300px;
-  margin-bottom: 90px;
-  text-align: center;
+*
+{
+margin:0;
+padding: 0;
+}
+body
+{
+font-family: 'Raleway';
+}
+.App
+{
+display: flex;
+width: 100vw;
+min-height: 100vh;
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter,Route, Switch} from "react-router-dom";
-import Gallery from './components/Gallery/Gallery';
-import Users from './components/Users/Users';
+import Navbar from './components/Navbar/Navbar';
+import Home from './contents/Home/Home';
+import Gallery from './contents/Gallery/Gallery';
+import Users from './contents/Users/Users';
 
 class App extends React.Component {
 
@@ -13,10 +15,14 @@ class App extends React.Component {
    render() {
      return (
       <BrowserRouter>
+         <div className="App">
          <Switch>
-           <Route path="/gallery" component={Gallery} />
-           <Route path="/users" component={Users} /> 
+            <Route exact path="/gallery" component={Gallery} />
+           <Route exact path="/users" component={Users} />  
          </Switch>
+         <Navbar/>
+         <Home />
+         </div>
        </BrowserRouter>
      );
    }
