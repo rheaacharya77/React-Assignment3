@@ -1,0 +1,40 @@
+
+h1{
+    color: black;
+
+   
+}
+
+.employee-content{
+    font-family: "sans-serif";
+    text-align: center;
+    
+}
+
+.employees{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  /* border-collapse: collapse; */
+}
+
+td,th {
+    border: 1px solid #ddd;
+    padding: 8px; 
+    width:200px;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  td:last-child, th:last-child {
+    width: 100px;
+}
+  
+  .employee tr:hover {background-color: #ddd;}
+   
+  .employees th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 140px;
+    text-align: center;
+    background-color: #0099ff;
+    color: white;
+  }
